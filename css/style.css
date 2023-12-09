@@ -1,0 +1,107 @@
+:root {
+    --fonte-principal: 'Roboto', cursive;
+    --bg-laranja: #C5965F;
+    --cor-violeta: #40112D;
+    --cor-branca: #FFFFFF;
+}
+
+html {
+    background: radial-gradient(farthest-corner at right top,#21A09D, #06182D);
+    height: 100%;
+    font-family: var(--fonte-principal);
+}
+
+.conteudo {
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 2em;
+}
+
+.principal {
+    flex-grow: 1;
+    flex-basis: auto;
+    padding: 2em;
+    box-sizing: border-box;
+    display: flex;
+    background: var(--bg-laranja);
+    border-radius: 10px;
+    gap: 2em;
+}
+  
+.mochila {
+    width: 8rem;
+}
+
+.adicionar {
+    width: 100%;
+}
+
+.adicionar input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid var(--cor-violeta);
+}
+
+.adicionar label {
+    display: block;
+}
+
+.cadastrar {
+    background-color: var(--cor-violeta);
+    color: var(--cor-branca);
+    cursor: pointer;
+}
+
+.lista {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: var(--cor-branca);
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--bg-laranja);
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mochila {
+        width: 5rem;
+    }
+}
