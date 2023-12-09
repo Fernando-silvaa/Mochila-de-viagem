@@ -59,7 +59,7 @@ function botaoDeleta(id) {
     const elementoBotao = document.createElement("button");
     elementoBotao.innerText = "X";
     elementoBotao.addEventListener("click", function() {
-        deletaElemento(this.parentNode);
+        deletaElemento(this.parentNode, id);
     })
 
     return elementoBotao;
