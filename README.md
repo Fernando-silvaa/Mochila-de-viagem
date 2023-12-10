@@ -7,11 +7,11 @@
 
 <h2>📱 Layout para tablet</h2>
 
-<img style="width: 50%" src="./assets/mochila_tablet.jpg" alt="Página do projeto Mochila de viagem para desktop">
+<img style="width: 50%" src="./assets/mochila-tablet.png" alt="Página do projeto Mochila de viagem para desktop">
 
 <h2>📱 Layout para mobile</h2>
 
-<img style="width: 50%" src="./assets/mochila_mobile.jpg" alt="Página do projeto Mochila de viagem para desktop">
+<img style="width: 50%" src="./assets/mochila-mobile.png" alt="Página do projeto Mochila de viagem para desktop">
 
 <h2>Tecnologias utilizadas</h2>
 <div style="display: flex">
